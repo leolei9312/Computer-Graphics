@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title = "Project_A"></title>
+  </head>
+  <body onload = "main()">
+    <canvas id = "webgl" width = "500" height = "500"></canvas>
+    <p>
+      <p><b>Increase</b> or <b>Reduce</b> or <b>Stop</b> the rotation speed.</p>
+      <button type="button" onclick="spinDown()">Spin << </button>
+	     <button type="button" onclick="runStop()"> Run/Stop</button>
+      <button type="button" onclick="spinUp()">Spin >> </button><br/>
+      <p><b>Increase</b> or <b>Reduce</b> or <b>Stop</b> the ship speed.</p>
+      <button type="button" onclick="speeddown()">speeddown << </button>
+       <button type="button" onclick="stopship()"> Run/Stop</button>
+      <button type="button" onclick="speedup()">speedup >> </button><br/>
+      <p>To <b>RESET</b> all move.</p>
+      <button type="button" onclick="reset()">RESET </button><br/>
+      <br/>
+
+    <p1 >
+      <font size = "30" color = "red">Please press "H" to see User Instruction.</font>
+    </p1>
+    <script src = "../lib/webgl-utils.js"></script>
+    <script src = "../lib/webgl-debug.js"></script>
+    <script src = "../lib/cuon-utils.js"></script>
+    <script src = "../lib/cuon-matrix.js"></script>
+    <script src = "../lib/cuon-matrix-mod.js"></script>
+    <script src = "../lib/cuon-matrix-quat.js"></script>
+    <script src = "LeiMenglei_ProjA.js"></script>
+
+  </body>
+
+</html>

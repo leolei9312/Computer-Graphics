@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      MengleiLei | Project C
+    </title>
+  </head>
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <button onclick = "BlinnPhongGoraud()">Blinn-Phong_Goraud</button>
+    <button onclick = "PhongGoraud()">Phong_Goraud</button>
+    <button onclick = "PhongPhongShading()">Phong_PhongShading</button>
+    <button onclick = "BlinnPhongPhongShading()">BlinnPhong_PhongShading</button><br>
+    <p>
+    1. Press up arrow, down arrow, left arrow and right arrow to move towards different way.<br/>
+    2. Press 'w', 's', 'a' and 'd' to look up, look down, look right and look left.<br/>
+    3. Press 'u' and 'i' to lift up and move down.<br/>
+    4. Press '0' to open/close the move light. Press '9' to open/close the head light.<br/>
+    5. Press '-' and '=' button to modify the ambient and R, G, B.<br/>
+    6. Click the button above to change the mode and lighting.<br/>
+    </p>
+    <p1 >
+      <font size = "30" color = "red">Please press "H" to see User Instruction.</font>
+    </p1>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-mod.js"></script>
+    <script src="../lib/cuon-matrix-quat.js"></script>
+    <script src="../lib/materials_Ayerdi.js"></script>
+    <script src="../lib/lights-JT.js"></script>
+    <script src="LeiMenglei_ProjC.js"></script>
+  </body>
+
+</html>
